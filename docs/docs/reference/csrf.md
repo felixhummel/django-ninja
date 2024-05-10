@@ -7,7 +7,7 @@
 ## How to protect against CSRF with Django Ninja
 ### Use an authentication method not automatically embedded in the request
 CSRF attacks rely on authentication methods that are automatically included in requests started from another site, like [cookies](https://en.wikipedia.org/wiki/HTTP_cookie) or [Basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication).
-Using an authentication method that does not automatically gets embedded, such as the `Authorization: Bearer` header for exemple, mitigates this attack.
+Using an authentication method that does not automatically get embedded, such as the `Authorization: Bearer` header for example, mitigates this attack.
 
 
 ### Use Django's built-in CSRF protection
